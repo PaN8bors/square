@@ -1,8 +1,9 @@
 import input from 'input';
 
 function square(size) {
+    const char = "X"
     for (let i = 1; i <= size; i += 1) {
-        console.log('X'.repeat(size));
+        console.log(char.repeat(size));
     }
 }
 
